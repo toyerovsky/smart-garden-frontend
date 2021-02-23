@@ -1,14 +1,6 @@
 <template>
-  <v-container>
-    <canvas v-show="false" ref="canvas"/>
-
-    <v-row class="text-center">
-      <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3">
-          Inteligentny ogród - Pomiary
-        </h1>
-      </v-col>
-    </v-row>
+  <v-container style="max-width: 1000px">
+    <canvas style="width: 1000px" v-show="false" ref="canvas"/>
 
     <v-row>
       <v-col>
